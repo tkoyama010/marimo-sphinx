@@ -1,5 +1,8 @@
 # marimo-sphinx
 
+[![PyPI version](https://badge.fury.io/py/marimo-sphinx.svg)](https://badge.fury.io/py/marimo-sphinx)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+
 A Sphinx extension that adds interactive [Marimo](https://marimo.io) notebook buttons to API documentation.
 
 Inspired by [jupyterlite-sphinx](https://github.com/jupyterlite/jupyterlite-sphinx), this extension embeds Marimo (WASM) directly in your Sphinx documentation via `marimo.app`.
@@ -54,6 +57,10 @@ def my_function(x):
     >>> x = mo.slider(1, 10)
     """
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, release process, and contribution guidelines.
 
 ## License
 
