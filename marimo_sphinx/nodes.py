@@ -36,7 +36,7 @@ class MarimoIframe(Element):
                 f'<div class="marimo-sphinx-container">'
                 f'<div class="marimo-sphinx-prompt">'
                 f'<button id="marimo-btn-{uid}" class="marimo-sphinx-try-it-button"'
-                f' onclick="marimoShowIframe(\'marimo-btn-{uid}\', \'{iframe_src}\')">'
+                f" onclick=\"marimoShowIframe('marimo-btn-{uid}', '{iframe_src}')\">"
                 f"{button_text}"
                 f"</button>"
                 f"</div>"

@@ -55,6 +55,23 @@ def my_function(x):
     """
 ```
 
+## Development
+
+This project uses [pre-commit](https://pre-commit.com/) to maintain code quality. Install the hooks with:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+Pre-commit hooks will automatically run on every commit and include:
+- Code formatting with ruff
+- Linting with ruff
+- Type checking with mypy
+- YAML/TOML validation
+
+The repository is configured with [pre-commit.ci](https://pre-commit.ci) for automated hook execution on all pull requests.
+
 ## License
 
 MIT
