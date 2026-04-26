@@ -2,7 +2,6 @@
 
 import base64
 
-import pytest
 
 from marimo_sphinx._docstring import (
     _wrap_as_marimo_script,
@@ -99,9 +98,7 @@ class TestMarimoIframe:
         assert "marimoShowIframe" in html
 
     def test_direct_mode_html(self):
-        node = MarimoIframe(
-            iframe_src="https://marimo.app/?code=abc", prompt=False
-        )
+        node = MarimoIframe(iframe_src="https://marimo.app/?code=abc", prompt=False)
         html = node.html()
         assert "marimo-sphinx-iframe" in html
         assert "hidden" not in html
