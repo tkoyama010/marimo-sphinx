@@ -6,6 +6,12 @@ Instructions for AI agents when working in this repository.
 
 - Do not add `Co-Authored-By: <AI agent>` trailers to commit messages.
 
+## Pull Request Descriptions
+
+- Describe only *why* the change is made, not *what* was changed.
+- The diff already shows what changed; the description should convey motivation and context the diff cannot.
+- Write 1–3 sentences of reasoning. Do not use bullet lists that restate changed files or added features.
+
 ## Creating GitHub Issues
 
 Always use the provided issue templates when opening GitHub issues for this project.
