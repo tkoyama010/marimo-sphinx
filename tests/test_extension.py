@@ -2,7 +2,6 @@
 
 import base64
 
-
 from marimo_sphinx._docstring import (
     _wrap_as_marimo_script,
     code_to_marimo_url,
