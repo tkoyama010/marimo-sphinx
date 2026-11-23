@@ -34,7 +34,7 @@ def _copy_static_files(app: Sphinx, exception) -> None:
 
 
 def _process_autodoc_docstrings(
-    app: Sphinx, what: str, name: str, obj, options, lines: List[str]
+    app: Sphinx, what: str, name: str, obj, options, lines: list[str]
 ) -> None:
     marimo_options = {}
     button_text = app.config.marimo_global_button_text
