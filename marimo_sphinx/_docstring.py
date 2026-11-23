@@ -1,7 +1,6 @@
 import base64
 import re
 import textwrap
-from typing import List
 
 _MARIMO_APP_BASE_URL = "https://marimo.app/"
 
@@ -46,7 +45,7 @@ def _wrap_as_marimo_script(code: str) -> str:
     )
 
 
-def insert_marimo_directive(lines: List[str], **options) -> List[str]:
+def insert_marimo_directive(lines: list[str], **options) -> list[str]:
     """Insert a ``.. marimo::`` directive after the Examples section.
 
     Modelled after jupyterlite_sphinx._try_examples.insert_try_examples_directive.
